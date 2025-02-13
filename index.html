@@ -1,34 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I'm Sorry</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            color: #333;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: #ff6f61;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .photo-slider {
+            position: relative;
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .slides img {
+            width: 20%;
+            border-radius: 20px;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+        .love-quotes {
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            width: 80%;
+        }
+        .love-quotes h2 {
+            margin-bottom: 20px;
+            color: #ff6f61;
+        }
+        .love-quotes ul {
+            list-style: none;
+            padding: 0;
+        }
+        .love-quotes li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        footer {
+            padding: 20px;
+            background: #ff6f61;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <h1>I'm Really Sorry, Januu 💕</h1>
-    </div>
-    <div class="photos">
-      <img src="WhatsApp Image 2024-12-04 at 00.11.47_288de39e.jpg" alt="Your Photo" class="photo">
-      <img src="https://tse1.mm.bing.net/th?id=OIP.pvphQap55N5TWoafTO8oPAHaEK&pid=Api&P=0&h=180" alt="Heart" class="heart">
-      <img src="WhatsApp Image 2024-12-04 at 00.11.50_9dbeef06.jpg" alt="Her Photo" class="photo">
-    </div>
-    <div class="message">
-      <p>Hey love, I know I messed up, but you mean the world to me. 💖</p>
-      <p>You’re the Messi to my Barcelona, the light of my life, and the reason for my smile. 😊</p>
-      <p>Please forgive me. I promise to do better and make you happy every single day. And baby mala kharch sang mi tuja sobat nahi karnar ashi majak tr kona sobat karel Katrina Kaif? nahi na ik ghaan hoti majak pn bala mi gandya way madhe navto karat ani baby like fr mala vait vatla a ani mi deserve karto te pn mala kharch nahi avdt tu asa neat nahi boli tr ata mi maja radna control kela mi pn jast vel nahi karu shakt bala mahnun mala maaf kar ani maja sobat neat bol. 🌈</p>
-      <p>And baby I know ki mi mistake karun parat maafi magto a pn baby come on yaar tula mahit a na mi kiti gandu a mi life time chukya karat alo a ani karel pudhe pn pn mala tya cukyan ne tula hurt nahi karaych ast bala. I am sorry my love manjao na baby ya phir sucide karne ki dhamki de du baby majak karto a pn I am really sorry bala mi next time azun neat laksh deil ani nahi hagnar mi. 💖</p>
-      <p>And baby in the last ofc one thing to tell you That I LOVE YOU JANU AND I'LL ALWAYS LOVE YOU tu kiti pn chid mi manvel tula ani tu ofc chidel karan mi chukya karel pn baby ya mule thod thrill tr rahil ani mala jast thrill pn nako mahnun mala lavkr maaf karat ja ok baby I love you baby till my last breath . 💖</p>
-    </div>
-    <button class="forgive-button" onclick="showMessage()">Forgive Me? 🥺</button>
-    <div id="hiddenMessage" class="hidden">
-      <p>Thank you, my love! I’ll never take you for granted again. ❤️</p>
-      <p>You’re my everything. Let’s make more beautiful memories together. And yes try to forgive me as soon as possible baby manje mala bakicha chukya karyla pn time bhetel.🌸</p>
-    </div>
-  </div>
-  <script src="script.js"></script>
+    <header>
+        <h1>Happy Valentine's Day, My Love!</h1>
+        <p>You're the most special part of my life. I love you more than words can express, and I promise to stay with you forever. ❤️</p>
+    </header>
+    <main>
+        <section class="photo-slider">
+            <div class="slides">
+                <img src="IMG-20250214-WA0003.jpg" alt="Our Moment 1">
+                <img src="IMG-20250214-WA0004.jpg" alt="Our Moment 2">
+                <img src="IMG-20250214-WA0005.jpg" alt="Our Moment 3">
+                <img src="IMG-20250214-WA0006.jpg" alt="Our Moment 4">
+                <img src="IMG-20250214-WA0007.jpg" alt="Our Moment 4">
+                <img src="IMG-20250214-WA0008.jpg" alt="Our Moment 2">
+                <img src="IMG-20250214-WA0009.jpg" alt="Our Moment 3">
+                <img src="IMG-20250214-WA0010.jpg" alt="Our Moment 4">
+                <img src="IMG-20250214-WA0011.jpg" alt="Our Moment 4">
+                <img src="WhatsApp Image 2025-02-14 at 02.00.10_e0d045f3.jpg" alt="Our Moment 4">
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </section>
+        <section class="love-quotes">
+            <h2>I Love You Janu</h2>
+            <ul>
+                <li>"I fell in love with you because of the million little things you never knew you were doing."
+                </li>
+                <li>"Every moment with you is a treasure I'll cherish forever."
+                </li>
+                <li>"In you, I've found the love of my life and my truest friend."
+                </li>
+                <li>"You are my heart, my soul, my everything."
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Forever yours,<br>Toxic Vedu Handore ❤️</p>
+    </footer>
+    <script>
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            const slides = document.querySelector('.slides');
+            const totalSlides = slides.children.length;
+            if (index >= totalSlides) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = totalSlides - 1;
+            } else {
+                currentSlide = index;
+            }
+            slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+        }
+
+        document.querySelector('.prev').addEventListener('click', () => {
+            showSlide(currentSlide - 1);
+        });
+
+        document.querySelector('.next').addEventListener('click', () => {
+            showSlide(currentSlide + 1);
+        });
+
+        // Auto slide every 5 seconds
+        setInterval(() => {
+            showSlide(currentSlide + 1);
+        }, 7000);
+    </script>
 </body>
 </html>
